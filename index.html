@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Chat App Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="mobile">
+        <div class="screen">
+          <div class="header">
+            <div class="btn">
+              <button><i class="fa-solid fa-angle-left"></i></button>
+            </div>
+            <div class="info">
+              <img src="./images/avatar.jpg" alt="" />
+              <div>
+                <h5 class="name">Samuel Green</h5>
+                <span class="status">Available to Walk</span>
+              </div>
+            </div>
+            <div class="three-dots-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <path
+                  id="three-dots"
+                  d="m 24.982431,6.908085 a 4.2877064,4.2877064 0 0 0 -4.270024,4.287594 4.2877064,4.2877064 0 0 0 4.287594,4.287593 4.2877064,4.2877064 0 0 0 4.287594,-4.287593 4.2877064,4.2877064 0 0 0 -4.287594,-4.287594 4.2877064,4.2877064 0 0 0 -0.01757,0 z m 0,13.804326 a 4.2877064,4.2877064 0 0 0 -4.270024,4.287593 4.2877064,4.2877064 0 0 0 4.287594,4.287595 4.2877064,4.2877064 0 0 0 4.287594,-4.287595 4.2877064,4.2877064 0 0 0 -4.287594,-4.287593 4.2877064,4.2877064 0 0 0 -0.01757,0 z m 0,13.804325 a 4.2877064,4.2877064 0 0 0 -4.270024,4.287595 4.2877064,4.2877064 0 0 0 4.287594,4.287594 4.2877064,4.2877064 0 0 0 4.287594,-4.287594 4.2877064,4.2877064 0 0 0 -4.287594,-4.287595 4.2877064,4.2877064 0 0 0 -0.01757,0 z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="conversation">
+            <ul>
+              <li class="customer-msg">
+                That sounds great. I’d be happy with that.
+              </li>
+              <li class="customer-msg">
+                Could you send over some pictures of your dog, please?
+              </li>
+              <li class="client-msg imgs-group">
+                <img src="./images/mea-1.jpg" alt="" />
+                <img src="./images/mea-2.jpg" alt="" />
+                <img src="./images/mea-3.jpg" alt="" />
+              </li>
+              <li class="client-msg">
+                Here are a few pictures. She’s a happy girl!
+              </li>
+              <li class="client-msg">Can you make it?</li>
+              <li class="customer-msg">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </li>
+              <li class="customer-msg offer">
+                <div></div>
+                30 minute walk
+                <div class="price">$29</div>
+              </li>
+              <li class="customer-msg offer">
+                <div></div>
+                1 hour walk
+                <div class="price">$49</div>
+              </li>
+            </ul>
+            <div class="write-msg">Type a message…</div>
+          </div>
+        </div>
+      </section>
+      <div class="about">
+        <h1>Simple booking</h1>
+        <p class="text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Khalil Ziadeh</a>.
+    </footer>
+  </body>
+</html>
